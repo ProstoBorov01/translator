@@ -35,7 +35,7 @@
 
 ## Транслироватние
 
-> <<input>> конфиг для подключения к бд
+> <input> конфиг для подключения к бд
 
 ```
 ! Настройки базы данных
@@ -45,7 +45,7 @@ credentials is (user, password)
 
 ```
 
-> <<output>> формат .toml
+> <output> формат .toml
 
 ```
 PS C:\Users\SavvinPC\Documents\mirea\config_managment\translator> python config_lang_to_toml.py config_for_db.txt
@@ -54,7 +54,7 @@ port = 5432
 credentials = [ "user", "password",]
 ```
 
-> <<input>> конфиг для интерфейса
+> <input> конфиг для интерфейса
 
 ```
 ! Настройки интерфейса
@@ -64,7 +64,7 @@ fonts is (Arial, Verdana, Courier)
 
 ```
 
-> <<output>> формат .toml
+> <output> формат .toml
 
 ```
 PS C:\Users\SavvinPC\Documents\mirea\config_managment\translator> python config_lang_to_toml.py config_for_interface.txt

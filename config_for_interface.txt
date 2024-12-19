@@ -1,0 +1,4 @@
+! Настройки интерфейса
+theme is dark
+resolution is (1920, 1080)
+fonts is (Arial, Verdana, Courier)

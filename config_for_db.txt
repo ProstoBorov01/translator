@@ -1,0 +1,4 @@
+! Настройки базы данных
+host is localhost
+port is 5432
+credentials is (user, password)
